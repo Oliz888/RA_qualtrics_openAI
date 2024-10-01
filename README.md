@@ -1,5 +1,5 @@
 ### RA_QUALTRICS_openAI/
-│
+
 ├── __pycache__/                  # Python cache files
 ├── .env                          # Environment variables (API keys)
 ├── api_call_func.ipynb           # Jupyter notebook with API call logic
