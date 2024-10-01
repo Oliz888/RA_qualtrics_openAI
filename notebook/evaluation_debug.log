@@ -1,0 +1,158 @@
+2024-10-01 00:27:28,274 - CRITICAL - Critical error in processing the CSV file: name 'csv' is not defined
+2024-10-01 00:28:29,459 - INFO - Evaluating comment: Abortion clinics are committing genocide against a specific race.
+2024-10-01 00:28:29,460 - ERROR - An error occurred: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://platform.openai.com/account/api-keys for details.
+2024-10-01 00:28:29,460 - INFO - Evaluating comment: Abortions increase the risk of cancer, but the media won't tell you that.
+2024-10-01 00:28:29,460 - ERROR - An error occurred: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://platform.openai.com/account/api-keys for details.
+2024-10-01 00:28:29,461 - INFO - Evaluating comment: Abortions are being used to secretly control population numbers.
+2024-10-01 00:28:29,461 - ERROR - An error occurred: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://platform.openai.com/account/api-keys for details.
+2024-10-01 00:28:29,461 - INFO - Evaluating comment: Politicians are hiding the fact that abortion bans increase maternal deaths.
+2024-10-01 00:28:29,461 - ERROR - An error occurred: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://platform.openai.com/account/api-keys for details.
+2024-10-01 00:28:29,461 - INFO - Evaluating comment: The government is pushing abortion as a tool for population control in poor areas.
+2024-10-01 00:28:29,461 - ERROR - An error occurred: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://platform.openai.com/account/api-keys for details.
+2024-10-01 00:28:29,461 - INFO - Evaluation results written to /Users/shiruizhou/Desktop/RA_qualtrics_openAI/data/output_file.csv
+2024-10-01 00:28:31,230 - INFO - Evaluating comment: The policies are biased towards certain groups.
+2024-10-01 00:28:31,230 - ERROR - Authentication error: Invalid API key.
+2024-10-01 00:28:54,482 - INFO - Evaluating comment: The policy disproportionately impacts marginalized communities.
+2024-10-01 00:28:54,483 - ERROR - Authentication error: Invalid API key.
+2024-10-01 00:28:54,483 - INFO - Evaluating comment: This policy seems well thought out and beneficial to all.
+2024-10-01 00:28:54,484 - ERROR - Authentication error: Invalid API key.
+2024-10-01 00:36:58,735 - INFO - Evaluating comment: Abortion clinics are committing genocide against a specific race.
+2024-10-01 00:36:58,737 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:36:58,737 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"Abortion clinics are committing genocide against a specific race.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:36:58,740 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-10-01 00:36:58,768 - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2024-10-01 00:37:00,051 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:37:00,052 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=982 request_id=req_65853edee9fefff5db49da05cf3d83dc response_code=200
+2024-10-01 00:37:00,056 - INFO - Evaluation successful
+2024-10-01 00:37:00,057 - INFO - Evaluating comment: Abortions increase the risk of cancer, but the media won't tell you that.
+2024-10-01 00:37:00,057 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:37:00,057 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"Abortions increase the risk of cancer, but the media won\'t tell you that.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:37:01,691 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:37:01,693 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1508 request_id=req_7359d360bb050886f7f12bcf5fb0cc73 response_code=200
+2024-10-01 00:37:01,693 - INFO - Evaluation successful
+2024-10-01 00:37:01,693 - INFO - Evaluating comment: Abortions are being used to secretly control population numbers.
+2024-10-01 00:37:01,694 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:37:01,694 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"Abortions are being used to secretly control population numbers.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:37:03,739 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:37:03,740 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1749 request_id=req_2b5eb609e1dab77d5e069cb44cdad897 response_code=200
+2024-10-01 00:37:03,740 - INFO - Evaluation successful
+2024-10-01 00:37:03,740 - INFO - Evaluating comment: Politicians are hiding the fact that abortion bans increase maternal deaths.
+2024-10-01 00:37:03,740 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:37:03,740 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"Politicians are hiding the fact that abortion bans increase maternal deaths.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:37:05,165 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:37:05,165 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1168 request_id=req_1aa9ae57253762980f95d1a4f8ef63ff response_code=200
+2024-10-01 00:37:05,166 - INFO - Evaluation successful
+2024-10-01 00:37:05,166 - INFO - Evaluating comment: The government is pushing abortion as a tool for population control in poor areas.
+2024-10-01 00:37:05,166 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:37:05,166 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The government is pushing abortion as a tool for population control in poor areas.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:37:06,461 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:37:06,462 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1047 request_id=req_88b55d0db18a494cd3cb8bed0517bebf response_code=200
+2024-10-01 00:37:06,463 - INFO - Evaluation successful
+2024-10-01 00:37:06,463 - INFO - Evaluation results written to /Users/shiruizhou/Desktop/RA_qualtrics_openAI/data/output_file.csv
+2024-10-01 00:37:23,836 - INFO - Evaluating comment: The policies are biased towards certain groups.
+2024-10-01 00:37:23,837 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:37:23,838 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The policies are biased towards certain groups.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:37:24,643 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:37:24,646 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=557 request_id=req_23583c2242bf09c4f4a9c9cc54142dd9 response_code=200
+2024-10-01 00:37:24,646 - INFO - Evaluation successful
+2024-10-01 00:37:26,364 - INFO - Evaluating comment: The policy disproportionately impacts marginalized communities.
+2024-10-01 00:37:26,364 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:37:26,364 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The policy disproportionately impacts marginalized communities.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:37:28,033 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:37:28,033 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1446 request_id=req_08fc94883f977a8f3d8da413d4a432cf response_code=200
+2024-10-01 00:37:28,033 - INFO - Evaluation successful
+2024-10-01 00:37:28,034 - INFO - Evaluating comment: This policy seems well thought out and beneficial to all.
+2024-10-01 00:37:28,034 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:37:28,034 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"This policy seems well thought out and beneficial to all.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:37:29,247 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:37:29,249 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=895 request_id=req_291436d114bc113e667f6743fdd9159e response_code=200
+2024-10-01 00:37:29,249 - INFO - Evaluation successful
+2024-10-01 00:38:07,145 - INFO - Evaluating comment: Abortion clinics are committing genocide against a specific race.
+2024-10-01 00:38:07,145 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:38:07,145 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"Abortion clinics are committing genocide against a specific race.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:38:07,145 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-10-01 00:38:07,150 - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2024-10-01 00:38:08,535 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:38:08,536 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1109 request_id=req_64871e8cebdf1ef9064503e9d387d4cd response_code=200
+2024-10-01 00:38:08,537 - INFO - Evaluation successful
+2024-10-01 00:38:08,537 - INFO - Evaluating comment: Abortions increase the risk of cancer, but the media won't tell you that.
+2024-10-01 00:38:08,537 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:38:08,537 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"Abortions increase the risk of cancer, but the media won\'t tell you that.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:38:09,913 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:38:09,913 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1133 request_id=req_52d94b0b216570de1d81a517a46fac7b response_code=200
+2024-10-01 00:38:09,914 - INFO - Evaluation successful
+2024-10-01 00:38:09,914 - INFO - Evaluating comment: Abortions are being used to secretly control population numbers.
+2024-10-01 00:38:09,914 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:38:09,914 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"Abortions are being used to secretly control population numbers.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:38:11,430 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:38:11,432 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1307 request_id=req_647a6bec6073be61736be3f5d04b7592 response_code=200
+2024-10-01 00:38:11,432 - INFO - Evaluation successful
+2024-10-01 00:38:11,433 - INFO - Evaluating comment: Politicians are hiding the fact that abortion bans increase maternal deaths.
+2024-10-01 00:38:11,433 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:38:11,433 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"Politicians are hiding the fact that abortion bans increase maternal deaths.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:38:12,703 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:38:12,704 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1025 request_id=req_b8c03c5ed09bed9dfc0eff13e3ea6a33 response_code=200
+2024-10-01 00:38:12,704 - INFO - Evaluation successful
+2024-10-01 00:38:12,705 - INFO - Evaluating comment: The government is pushing abortion as a tool for population control in poor areas.
+2024-10-01 00:38:12,705 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:38:12,705 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The government is pushing abortion as a tool for population control in poor areas.\\" Here are the scores for each dimension:\\nDiscrimination: 9/10\\nPolitical Inclination: 8/10\\nSource Credibility: 2/10\\nPublic Perception: 5/10\\nEmotional Appeal: 10/10"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:38:14,235 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:38:14,236 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1295 request_id=req_2085d532eff97022d7f3c0ccd4ed2d09 response_code=200
+2024-10-01 00:38:14,236 - INFO - Evaluation successful
+2024-10-01 00:38:14,237 - INFO - Evaluation results written to /Users/shiruizhou/Desktop/RA_qualtrics_openAI/data/output_file.csv
+2024-10-01 00:38:14,251 - INFO - Evaluating comment: The policies are biased towards certain groups.
+2024-10-01 00:38:14,251 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:38:14,252 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The policies are biased towards certain groups.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:38:15,718 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:38:15,719 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1134 request_id=req_1bc67a252d645cad96b00578b16999af response_code=200
+2024-10-01 00:38:15,720 - INFO - Evaluation successful
+2024-10-01 00:38:15,740 - INFO - Evaluating comment: The policy disproportionately impacts marginalized communities.
+2024-10-01 00:38:15,741 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:38:15,741 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The policy disproportionately impacts marginalized communities.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:38:16,391 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:38:16,393 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=434 request_id=req_92cea3407b63ab3d34076a2c31af8fba response_code=200
+2024-10-01 00:38:16,394 - INFO - Evaluation successful
+2024-10-01 00:38:16,394 - INFO - Evaluating comment: This policy seems well thought out and beneficial to all.
+2024-10-01 00:38:16,394 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:38:16,394 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"This policy seems well thought out and beneficial to all.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:38:17,922 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:38:17,923 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1231 request_id=req_9c635cc85a834dfc0092bcdbba477d48 response_code=200
+2024-10-01 00:38:17,923 - INFO - Evaluation successful
+2024-10-01 00:39:33,841 - INFO - Evaluating comment: The policy disproportionately impacts marginalized communities.
+2024-10-01 00:39:33,844 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:39:33,845 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The policy disproportionately impacts marginalized communities.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:39:34,562 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:39:34,563 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=490 request_id=req_bae7e7dd99eaeb32b41df2d7f5e6e010 response_code=200
+2024-10-01 00:39:34,564 - INFO - Evaluation successful
+2024-10-01 00:39:34,564 - INFO - Evaluating comment: This policy seems well thought out and beneficial to all.
+2024-10-01 00:39:34,565 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:39:34,565 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"This policy seems well thought out and beneficial to all.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:39:35,881 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:39:35,882 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1105 request_id=req_2cb4bff5180c35b22420e7e9dc034a24 response_code=200
+2024-10-01 00:39:35,882 - INFO - Evaluation successful
+2024-10-01 00:40:56,663 - INFO - Evaluating comment: The new tax law unfairly targets small businesses, making it harder for them to compete.
+2024-10-01 00:40:56,664 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:40:56,664 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The new tax law unfairly targets small businesses, making it harder for them to compete.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:40:58,102 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:40:58,103 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1199 request_id=req_f429dc90e79bf5af448008f67fe65fd6 response_code=200
+2024-10-01 00:40:58,103 - INFO - Evaluation successful
+2024-10-01 00:40:58,104 - INFO - Evaluating comment: The tax reform will promote economic growth by giving large corporations more flexibility to innovate.
+2024-10-01 00:40:58,104 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:40:58,104 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The tax reform will promote economic growth by giving large corporations more flexibility to innovate.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:40:59,411 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:40:59,412 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=994 request_id=req_5f88b1fe6820294f868daaf02d7989ca response_code=200
+2024-10-01 00:40:59,412 - INFO - Evaluation successful
+2024-10-01 00:58:02,554 - INFO - Evaluating comment: The policy disproportionately impacts marginalized communities.
+2024-10-01 00:58:02,555 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:58:02,556 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"The policy disproportionately impacts marginalized communities.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:58:02,557 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-10-01 00:58:02,559 - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2024-10-01 00:58:03,447 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:58:03,449 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=640 request_id=req_eb7b003935dc2f3659ec7d3e7d07c001 response_code=200
+2024-10-01 00:58:03,449 - INFO - Evaluation successful
+2024-10-01 00:58:03,450 - INFO - Evaluating comment: This policy seems well thought out and beneficial to all.
+2024-10-01 00:58:03,450 - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-10-01 00:58:03,450 - DEBUG - api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "system", "content": "You are an assistant who evaluates comments on various dimensions."}, {"role": "user", "content": "Evaluate the following comment: \\"This policy seems well thought out and beneficial to all.\\" and provide an estimate for each dimension:\\nDiscrimination (on a scale of 1 to 10):\\nPolitical Inclination (on a scale of 1 to 10):\\nSource Credibility (on a scale of 1 to 10):\\nPublic Perception (on a scale of 1 to 10):\\nEmotional Appeal (on a scale of 1 to 10):"}], "max_tokens": 100}' message='Post details'
+2024-10-01 00:58:04,921 - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-10-01 00:58:04,922 - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1227 request_id=req_b67cff0c56856f6adbdbaf3656174436 response_code=200
+2024-10-01 00:58:04,922 - INFO - Evaluation successful

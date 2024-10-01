@@ -1,7 +1,14 @@
 from imports import *  # Import necessary modules
 
-# Function to evaluate comments
+import time
+import openai
+import logging
+import re
+import plotly.graph_objects as go
+
+# Function to evaluate comments using OpenAI API
 def get_evaluation(comment):
+    # Create the evaluation prompt
     prompt = (
         f"Evaluate the following comment: \"{comment}\" "
         "and provide an estimate for each dimension:\n"
@@ -29,6 +36,8 @@ def get_evaluation(comment):
 
             evaluation_result = response['choices'][0]['message']['content'].strip()
             logging.info("Evaluation successful")
+
+            # Debug: Print raw evaluation result to see the format
             print(f"Raw evaluation result for comment '{comment}':\n{evaluation_result}")
             return evaluation_result
 
@@ -55,10 +64,18 @@ def get_evaluation(comment):
 
 # Function to extract numerical scores from the evaluation result
 def extract_scores(evaluation_text):
+    # Debug: Print the evaluation text to inspect the format
     print(f"Extracting scores from evaluation text:\n{evaluation_text}")
+
+    # Regex pattern to match "Dimension: X/10" where X is a number
+    # This will match both bullet point format and inline text format
     pattern = re.compile(r'(Discrimination|Political Inclination|Source Credibility|Public Perception|Emotional Appeal)[^\d]*(\d+)/10')
+
     scores = {match[0]: int(match[1]) for match in pattern.findall(evaluation_text)}
+
+    # Debug: Print the extracted scores
     print(f"Extracted Scores: {scores}")
+    
     return scores
 
 
@@ -95,19 +112,25 @@ def plot_radar(comment1_scores, comment2_scores):
         title="Radar Chart Comparison of Two Comments"
     )
 
+    # Show the radar chart
     fig.show()
 
 
 # Function to compare two comments and plot radar chart
 def compare_two_comments(comment1, comment2):
+    # Evaluate both comments
     eval1 = get_evaluation(comment1)
     eval2 = get_evaluation(comment2)
 
+    # Extract the scores
     scores1 = extract_scores(eval1)
     scores2 = extract_scores(eval2)
 
-
+    # Print extracted scores for debugging
     print("Comment 1 Scores:", scores1)
     print("Comment 2 Scores:", scores2)
 
+    # Plot the radar chart for comparison
     plot_radar(scores1, scores2)
+
+

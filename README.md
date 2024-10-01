@@ -1,13 +1,24 @@
-### RA_QUALTRICS_openAI/
+### Project Structure
 
-├── __pycache__/                  # Python cache files
-├── .env                          # Environment variables (API keys)
-├── api_call_func.ipynb           # Jupyter notebook with API call logic
-├── evaluation_debug.log          # Log file for evaluations
-├── imports.py                    # Handles imports for the project
-├── main_execution.py             # Script to execute main logic
-├── main_functions.py             # Contains the core functions (get_evaluation, plot_radar, etc.)
-├── main.py                       # Main file that imports functions and executes the logic
-├── misinformation_comments.csv   # Input CSV file with comments to evaluate
-├── output_file.csv               # Output CSV file after evaluation
-└── README.md                     # Documentation for the project
+The following is an overview of the project's structure:
+
+
+### Description of Key Files and Directories:
+
+- **`.env`**: This file contains sensitive environment variables such as API keys.
+- **`README.md`**: The documentation for the project, including instructions on how to set up and use the project.
+- **`data/`**: Stores input and output data files.
+  - `misinformation_comments.csv`: The input CSV file with comments to evaluate.
+  - `output_file.csv`: The output CSV file after evaluation.
+- **`notebooks/`**: Jupyter notebooks for running and testing API calls or any other experimental code.
+  - `api_call_func.ipynb`: Notebook with the API call logic.
+- **`logs/`**: Contains log files for tracking evaluation processes.
+  - `evaluation_debug.log`: The log file to debug evaluations.
+- **`src/`**: The source code for the project.
+  - `__pycache__/`: Directory for Python cache files.
+  - `imports.py`: Handles all imports for the project.
+  - `main_execution.py`: Script that orchestrates the main logic execution.
+  - `main_functions.py`: Contains core functions like `get_evaluation`, `plot_radar`, etc.
+  - `main.py`: The main entry point that imports and runs the core functions.
+- **`tests/`**: Directory reserved for unit and integration tests (optional or future use).
+
